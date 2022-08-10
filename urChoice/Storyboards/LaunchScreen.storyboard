@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent_dots" translatesAutoresizingMaskIntoConstraints="NO" id="iYp-fn-0Ky">
+                                <rect key="frame" x="50" y="291" width="314" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iYp-fn-0Ky" secondAttribute="height" multiplier="1:1" id="cgI-Sk-CFh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent_globe" translatesAutoresizingMaskIntoConstraints="NO" id="Btb-bR-TVJ">
+                                <rect key="frame" x="50" y="291" width="314" height="314"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iYp-fn-0Ky" secondAttribute="trailing" constant="50" id="7gA-ZV-qtM"/>
+                            <constraint firstItem="Btb-bR-TVJ" firstAttribute="height" secondItem="iYp-fn-0Ky" secondAttribute="height" id="BHG-bO-rWa"/>
+                            <constraint firstItem="Btb-bR-TVJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KJ6-bv-3Om"/>
+                            <constraint firstItem="iYp-fn-0Ky" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LMt-ai-dKv"/>
+                            <constraint firstItem="Btb-bR-TVJ" firstAttribute="width" secondItem="iYp-fn-0Ky" secondAttribute="width" id="PXG-fK-Txv"/>
+                            <constraint firstItem="iYp-fn-0Ky" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="aFe-W1-t0F"/>
+                            <constraint firstItem="Btb-bR-TVJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gAv-sd-u2J"/>
+                            <constraint firstItem="iYp-fn-0Ky" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="z1E-ci-9Kl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="transparent_dots" width="2680" height="2732"/>
+        <image name="transparent_globe" width="2680" height="2732"/>
+    </resources>
+</document>

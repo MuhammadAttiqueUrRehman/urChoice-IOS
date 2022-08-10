@@ -1,0 +1,6 @@
+framework module Pods_urChoice {
+  umbrella header "Pods-urChoice-umbrella.h"
+
+  export *
+  module * { export * }
+}
